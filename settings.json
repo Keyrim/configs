@@ -1,0 +1,7 @@
+{
+    "files.encoding": "iso88591",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        100
+    ]
+}

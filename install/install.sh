@@ -9,6 +9,8 @@ sudo apt install -y git
 sudo apt install -y python3
 sudo apt install -y python3-pip
 sudo apt install -y cmake
+sudo apt install -y zip
+sudo apt install -y unzip
 
 git config --global user.email "theo.magne.fr@gmail.com"
 git config --global user.name "Théo Magne"

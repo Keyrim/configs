@@ -14,8 +14,7 @@ $packages = @(
     "python3",
     "vlc",
     "googlechrome",
-     
-
+    "autodesk-fusion360"
 )
 
 # Installation des packages

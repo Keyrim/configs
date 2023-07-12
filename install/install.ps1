@@ -13,7 +13,9 @@ $packages = @(
     "jdownloader",
     "python3",
     "vlc",
-    "googlechrome"
+    "googlechrome",
+     
+
 )
 
 # Installation des packages

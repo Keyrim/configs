@@ -24,3 +24,4 @@ starkwang.markdown
 ms-vscode.live-server
 svelte.svelte-vscode
 yzane.markdown-pdf
+marus25.cortex-debug

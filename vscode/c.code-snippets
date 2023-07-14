@@ -1,14 +1,17 @@
 {
 	"C_Header": {
-		"prefix": "header",
+		"prefix": "c header",
 		"body": [
 			"/**",
-			" *  Description : ${4:Description du module}",
-			" *  Auteur : ${2:Prénom Nom} ${3:Année}",
+            " * @file ${TM_FILENAME}",
+			" * @brief ${1:Description du fichier}",
+			" * @author ${2:Prénom Nom}",
+            " * @date ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
+            " * @see ${TM_FILENAME_BASE}.c",
 			" */",
 			"",
-			"#ifndef _${1:MODULE}_H_",
-			"#define _${1:MODULE}_H_",
+			"#ifndef ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H_",
+			"#define ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H_",
 			"",
 			"/* ************************************* Includes *********************************************** */",
 			"",
@@ -22,21 +25,23 @@
 			"",
 			"/* ************************************* Public callback functions ****************************** */",
 			"",
-			"#endif /* _${1:MODULE}_H_*/"
+			"#endif /* ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H_ */"
 		],
-		"description": "Template for .h module"
+		"description": "Header file template for C language"
 	},
 	"C_Source": {
-		"prefix": "source",
+		"prefix": "c source",
 		"body": [
 			"/**",
-			" *  Fichier : ${1:module}.c",
-			" *  Description : ${4:Description du module}",
-			" *  Auteur : ${2:Prénom Nom} ${3:Année}",
+            " * @file ${TM_FILENAME}",
+			" * @brief ${1:Description du fichier}",
+			" * @author ${2:Prénom Nom}",
+            " * @date ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
+            " * @see ${TM_FILENAME_BASE}.h",
 			" */",
 			"",
 			"/* ************************************* Includes *********************************************** */",
-			"#include \"${1:module}.h\"",
+			"#include \"${TM_FILENAME_BASE}.h\"",
 			"",
 			"/* ************************************* Private macros ***************************************** */",
 			"",
@@ -54,6 +59,6 @@
 			"",
 			"/* ************************************* Public callback functions ****************************** */"
 		],
-		"description": "Template for .c module"
+		"description": "Source file template for C language"
 	}
 }

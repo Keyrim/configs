@@ -15,7 +15,8 @@ $packages = @(
     "vlc",
     "googlechrome",
     "autodesk-fusion360",
-    "cura-new"
+    "cura-new",
+    "choco install directx"
 )
 
 # Installation des packages

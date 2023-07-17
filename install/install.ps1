@@ -16,7 +16,8 @@ $packages = @(
     "googlechrome",
     "autodesk-fusion360",
     "cura-new",
-    "choco install directx"
+    "choco install directx",
+    "choco install powertoys"
 )
 
 # Installation des packages

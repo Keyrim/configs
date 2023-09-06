@@ -9,6 +9,7 @@ sudo apt install -y git
 sudo apt install -y python3
 sudo apt install -y python3-pip
 sudo apt install -y cmake
+sudo apt install -y ninja-build
 sudo apt install -y zip
 sudo apt install -y unzip
 

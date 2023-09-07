@@ -25,3 +25,5 @@ ms-vscode.live-server
 svelte.svelte-vscode
 yzane.markdown-pdf
 marus25.cortex-debug
+dan-c-underwood.arm
+zixuanwang.linkerscript

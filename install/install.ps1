@@ -18,7 +18,8 @@ $packages = @(
     "cura-new",
     "directx",
     "powertoys",
-    "cmake"
+    "cmake",
+    "discord"
 )
 
 # Installation des packages

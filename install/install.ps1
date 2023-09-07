@@ -17,7 +17,8 @@ $packages = @(
     "autodesk-fusion360",
     "cura-new",
     "directx",
-    "powertoys"
+    "powertoys",
+    "cmake"
 )
 
 # Installation des packages

@@ -5,8 +5,6 @@ sudo apt update
 
 
 # Installer les packages
-sudo apt update
+sudo apt install linux-tools-virtual hwdata
+sudo update-alternatives --install /usr/local/bin/usbip usbip `ls /usr/lib/linux-tools/*/usbip | tail -n1` 20
 sudo apt install usbip -y
-
-# Add an alias to window's usbipd.exe
-echo "alias usbipd-win=usbipd.exe" >> ~/.bashrc

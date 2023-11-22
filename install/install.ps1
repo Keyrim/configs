@@ -1,3 +1,6 @@
+# Pour activer l'exécution de script ps1 non signé:
+# Set-ExecutionPolicy unrestricted
+
 # Installer Chocolatey s'il n'est pas déjà installé
 if ((Get-PackageProvider -ListAvailable | Where-Object Name -eq Chocolatey) -eq $null) {
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -28,4 +31,4 @@ foreach ($package in $packages) {
 }
 
 git config --global user.email "theo.magne.fr@gmail.com"
-git config --global user.name "Théo Magne"
+git config --global user.name "Theo Magne"

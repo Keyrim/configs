@@ -1,6 +1,6 @@
 # ROS Humble cheat sheet
 
-*Note, assume your ros workspace is `ros2_ws`*
+Note, the following commands assume your ros workspace is `ros2_ws` and your target language is python.
 
 ## Package 
 Create a package
